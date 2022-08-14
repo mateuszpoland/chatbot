@@ -1,16 +1,5 @@
 package models
 
-import (
-	"bytes"
-	"encoding/json"
-	"errors"
-	"fmt"
-	"github.com/gorilla/mux"
-	"log"
-	"net/http"
-	"net/url"
-	"os"
-)
 
 //input msg from messenger
 type InputMessage struct {
@@ -50,7 +39,6 @@ type Button struct {
 }
 
 type Element struct {
-	Title string `json:"title,omitempty"`
 	Subtitle string `json:"subtitle,omitempty"`
 	ImageURL string `json:"image_url,omitempty"`
 	DefaultAction DefaultAction `json:"default_action,omitempty"`

@@ -2,3 +2,5 @@ github.com/gorilla/mux v1.8.0 h1:i40aqfkR1h2SlN9hojwV5ZA91wcXFOvkdNIeFDP5koI=
 github.com/gorilla/mux v1.8.0/go.mod h1:DVbg23sWSpFRCP0SfiEN6jmj59UnW/n46BH5rLB71So=
 github.com/mateuszpoland/chatbot/lib v0.0.0-20220814104938-24d116fd2697 h1:zUAE4QdCpSisPUBXON5MzZ9vuscj1Nod1/JjnmjnSlE=
 github.com/mateuszpoland/chatbot/lib v0.0.0-20220814104938-24d116fd2697/go.mod h1:bZrow9Nh+aYZAS4uIRxmhhUysz4t4oIZhLyMFmLGNpE=
+github.com/mateuszpoland/chatbot/models v0.0.0-20220814130858-93e0a1d19e43 h1:mk5Ni91fWgEZwG6o50S+bvS2BZc6jFtFBf6V73AMu6c=
+github.com/mateuszpoland/chatbot/models v0.0.0-20220814130858-93e0a1d19e43/go.mod h1:7wkdSJy1Bv8h4QbwVG/TffFn2plFqcB6FKARs7yawms=
