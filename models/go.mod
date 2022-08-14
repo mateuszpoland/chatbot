@@ -1,4 +1,4 @@
-module github.com/mateuszpoland/chatbot/lib
+module github.com/mateuszpoland/chatbot/models
 
 go 1.18
 
