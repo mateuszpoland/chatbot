@@ -7,7 +7,7 @@ import (
  "net/url"
  "io/ioutil"
  "errors"
- "github.com/mateuszpoland/chatbot/lib/structs"
+ "github.com/mateuszpoland/chatbot/lib"
 )
 
 // app token : EAAIP9JjQb78BAOcmPFLjzEdqlHWIw6aC598yfZAxfuV4APFhJ6BYz7BV2JXoMrpodt3yMS7du93m1vqSbOkZAfqXk5fjIHnn6lTrmFbh8seqPSGZAT0tOxo6mkd61VVNniXMkcCtkrmlZCTawqZATL4pZB5GkD5wtZA9o6ejosnufsAr1XiN7DL90ADHaLRZByZB0x6Ua2EKhZAgZDZD
