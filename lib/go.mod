@@ -1,4 +1,4 @@
-module github.com/mateuszpoland/chatbot/structs
+module github.com/mateuszpoland/chatbot/lib
 
 go 1.18
 
