@@ -10,10 +10,9 @@ import (
  "github.com/mateuszpoland/chatbot/models"
 )
 
-// app token : EAAIP9JjQb78BAOcmPFLjzEdqlHWIw6aC598yfZAxfuV4APFhJ6BYz7BV2JXoMrpodt3yMS7du93m1vqSbOkZAfqXk5fjIHnn6lTrmFbh8seqPSGZAT0tOxo6mkd61VVNniXMkcCtkrmlZCTawqZATL4pZB5GkD5wtZA9o6ejosnufsAr1XiN7DL90ADHaLRZByZB0x6Ua2EKhZAgZDZD
 
 func HandleMessenger(resp http.ResponseWriter, request *http.Request) {
- secretKey := "secret_token"
+ secretKey := "chatbot_token"
  if request.Method == "GET" {
   u, _ := url.Parse(request.RequestURI)
   values, _ := url.ParseQuery(u.RawQuery)
@@ -75,7 +74,7 @@ func handleMessage(senderId, message string) error {
          ID: senderId
       },
       Message: OutputMessage {
-         Text: "Welcome to FUH EKO-AR."
+         Text: "Welcome to FUH EKO-AR, my friend"
       }
    }
 
@@ -116,7 +115,6 @@ func sendResponseToFacebook(data) {
    log.Printf("MESSAGE SENT?\n%#v", res)
    return nil
 }
-
 
 
 // Initialize request
